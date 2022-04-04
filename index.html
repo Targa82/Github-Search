@@ -16,7 +16,8 @@
     <header class="page-header">
       <div class="title">devfinder</div>
       <div class="modeswitch">
-        <p class="modetext">Dark</p>
+        <p class="modetext-dark">Dark</p>
+        <p class="modetext-light">Light</p>
         <div class="modeimg-moon">
           <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -41,7 +42,7 @@
       <div class="search-icon">
         <img src="./img/icon-search.svg" alt="" />
       </div>
-      <form action="submit">
+      <form class="form" action="submit">
         <input
           type="search"
           placeholder="Search GitHub username..."
@@ -53,9 +54,7 @@
     </div>
     <main class="main-container">
       <section class="user-info">
-        <div class="user-img">
-          <img src="img/icon-company.svg" alt="" />
-        </div>
+        <div class="user-img"></div>
         <div class="user-name">The Octocat</div>
         <div class="user-tag">@Octocat</div>
         <div class="user-data">Joined 25 Jan 2011</div>
